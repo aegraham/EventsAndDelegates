@@ -36,7 +36,7 @@ protected virtual void OnEventCreated(Event @event)
     }
 }
 ```
-The above checks to see if anyone is subscribed to the event and then passes through ìthisî which is the current object and then no eventargs. 
+The above checks to see if anyone is subscribed to the event and then passes through ‚Äúthis‚Äù which is the current object and then no eventargs. 
 
 # Subscribers
 
@@ -164,3 +164,5 @@ Becomes
 ```sh
  public event EventHandler<EventCalendarEventArgs> EventCreated;
 ```
+# Reference
+Prgramming with Mosh video <a href="https://www.youtube.com/watch?v=jQgwEsJISy0&t=1089s">Video</a>
